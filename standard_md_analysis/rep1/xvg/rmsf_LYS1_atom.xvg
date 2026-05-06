@@ -1,0 +1,42 @@
+# This file was created Wed May  6 10:28:31 2026
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2026.1 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /data/hc/MD/gromacs_data/zzs_chai
+# Command line:
+#   gmx rmsf -s md_run/rep1/md.tpr -f standard_md_analysis/rep1/xtc/md_fit.xtc -n standard_md_analysis/rep1/analysis.ndx -o standard_md_analysis/rep1/xvg/rmsf_LYS1_atom.xvg -ox standard_md_analysis/rep1/pdb/LYS1_avg.pdb -oq standard_md_analysis/rep1/pdb/LYS1_bfac.pdb
+# gmx rmsf is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Atom"
+@    yaxis  label "(nm)"
+@TYPE xy
+ 1084   0.0296
+ 1085   0.0758
+ 1086   0.1226
+ 1087   0.0423
+ 1088   0.1030
+ 1089   0.1111
+ 1090   0.1038
+ 1091   0.0787
+ 1092   0.0862
+ 1093   0.0537
+ 1094   0.0923
+ 1095   0.1876
+ 1096   0.1810
+ 1097   0.1554
+ 1098   0.1153
+ 1099   0.1629
+ 1100   0.1600
+ 1101   0.1314
+ 1102   0.1190
+ 1103   0.1302
+ 1104   0.1332
+ 1105   0.1322
+ 1106   0.1582
+ 1107   0.1574
+ 1108   0.1659

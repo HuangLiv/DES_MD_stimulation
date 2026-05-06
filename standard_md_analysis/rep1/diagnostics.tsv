@@ -1,0 +1,3 @@
+rep	group	flag	values	interpretation
+rep1	LYS1	ligand_pose_rmsd_high	mean=2.6; max=8; last=2.44	possible ligand drift/detachment relative to protein
+rep1	LYS1	rigid_body_ligand_drift	pose_mean=2.6; self_mean=0.136	ligand conformation is stable but its position relative to protein changes

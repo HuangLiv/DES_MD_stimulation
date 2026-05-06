@@ -1,0 +1,10 @@
+>protein|name=A
+PPGPPGQRGREGPMGPRGPPGPPGPPG
+>protein|name=B
+PPGPPGQRGREGPMGPRGPPGPPGPPG
+>protein|name=C
+PPGPPGQRGREGPMGPRGPPGPPGPPG
+>ligand|name=D
+OC(=O)CC(O)(C(=O)O)CC(=O)O
+>ligand|name=E
+OC(=O)[C@@H](N)CCCCN

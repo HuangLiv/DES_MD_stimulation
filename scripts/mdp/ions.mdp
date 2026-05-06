@@ -1,0 +1,37 @@
+; ions.mdp - used as input into grompp to generate ions.tpr
+; Parameters describing what to do, when to stop and what to save
+integrator  = steep         ; Algorithm (steep = steepest descent minimization)
+emtol       = 1000.0        ; Stop minimization when the maximum force < 1000.0 kJ/mol/nm
+emstep      = 0.01          ; Energy step size
+nsteps      = 50000         ; Maximum number of (minimization) steps to perform
+
+; Parameters describing how to find the neighbors of each atom and how to calculate the interactions
+nstlist         = 20         ; Frequency to update the neighbor list and long range forces
+cutoff-scheme   = Verlet    ; Buffered neighbor searching
+ns-type         = grid      ; Method to determine neighbor list (grid or simple)
+coulombtype     = PME       ; Treatment of long range electrostatic interactions
+rcoulomb        = 1.0       ; Short-range electrostatic cut-off
+rvdw            = 1.0       ; Short-range Van der Waals cut-off
+pbc             = xyz       ; Periodic Boundary Conditions (yes/no)
+
+; Parameters for temperature coupling
+tcoupl      = no            ; Temperature coupling on/off
+; tc-grps     = System        ; Temperature coupling groups
+; tau_t       = 0.1           ; Time constant, in ps
+; ref_t       = 300           ; Reference temperature, in K
+
+; Parameters for pressure coupling
+pcoupl      = no            ; Pressure coupling on/off
+; pcoupltype  = isotropic     ; Pressure coupling type
+; tau_p       = 2.0           ; Time constant, in ps
+; ref_p       = 1.0           ; Reference pressure, in bar
+; compressibility = 4.5e-5    ; Isothermal compressibility of water, bar^-1
+; gen_vel     = yes           ; Assign velocities from Maxwell distribution
+; gen_temp    = 300           ; Temperature for Maxwell distribution
+; gen_seed    = -1            ; Seed for random numbers
+
+; Parameters for constraints
+constraints           = h-bonds ; Convert all bonds to constraints
+constraint-algorithm  = LINCS     ; Constraint algorithm
+lincs-order           = 4         ; Order of LINCS algorithm
+lincs-iter            = 1         ; Number of LINCS iterations

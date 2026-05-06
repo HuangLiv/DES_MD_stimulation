@@ -1,0 +1,3 @@
+rep	ligand	n_frames	t_start_ns	t_end_ns	com_mean_nm	com_sd_nm	com_last_nm	mindist_mean_nm	mindist_sd_nm	mindist_last_nm	contact_lt_0.35	contact_lt_0.45	contact_lt_0.60	hbond_mean	hbond_occupancy	interaction_mean_kjmol	interaction_sd_kjmol	interaction_last_kjmol
+rep3	CA1	10001	0	100	3.5582	1.5019	6.517	0.93405	1.1016	1.893	0.62434	0.63984	0.65383	NA	NA	NA	NA	NA
+rep3	LYS1	10001	0	100	4.7181	0.87341	6.68	1.4424	1.194	2.082	0.31557	0.38736	0.43016	NA	NA	NA	NA	NA

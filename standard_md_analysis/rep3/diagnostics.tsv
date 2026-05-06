@@ -1,0 +1,7 @@
+rep	group	flag	values	interpretation
+rep3	CA1	ligand_pose_rmsd_high	mean=3.06; max=8.17; last=7.7	possible ligand drift/detachment relative to protein
+rep3	CA1	rigid_body_ligand_drift	pose_mean=3.06; self_mean=0.148	ligand conformation is stable but its position relative to protein changes
+rep3	CA1	hbond_loss_or_low_occupancy	mean=1.42; last=0	check minimum distance/contact occupancy before declaring stable binding
+rep3	LYS1	ligand_pose_rmsd_high	mean=4.59; max=9.41; last=7.93	possible ligand drift/detachment relative to protein
+rep3	LYS1	rigid_body_ligand_drift	pose_mean=4.59; self_mean=0.133	ligand conformation is stable but its position relative to protein changes
+rep3	LYS1	hbond_loss_or_low_occupancy	mean=0.512; last=0	check minimum distance/contact occupancy before declaring stable binding

@@ -1,0 +1,98 @@
+# This file was created Wed May  6 10:27:35 2026
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2026.1 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /data/hc/MD/gromacs_data/zzs_chai
+# Command line:
+#   gmx rmsf -s md_run/rep1/md.tpr -f standard_md_analysis/rep1/xtc/md_fit.xtc -n standard_md_analysis/rep1/analysis.ndx -o standard_md_analysis/rep1/xvg/rmsf_protein_residue.xvg -res -ox standard_md_analysis/rep1/pdb/protein_avg.pdb -oq standard_md_analysis/rep1/pdb/protein_bfac.pdb
+# gmx rmsf is part of G R O M A C S:
+#
+# God Rules Over Mankind, Animals, Cosmos and Such
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+    1   0.0424
+    2   0.0321
+    3   0.0252
+    4   0.0267
+    5   0.0312
+    6   0.0225
+    7   0.0327
+    8   0.0325
+    9   0.0218
+   10   0.0335
+   11   0.0310
+   12   0.0208
+   13   0.0273
+   14   0.0349
+   15   0.0213
+   16   0.0279
+   17   0.0274
+   18   0.0203
+   19   0.0295
+   20   0.0271
+   21   0.0216
+   22   0.0306
+   23   0.0294
+   24   0.0220
+   25   0.0249
+   26   0.0309
+   27   0.0370
+    1   0.0406
+    2   0.0337
+    3   0.0237
+    4   0.0324
+    5   0.0290
+    6   0.0227
+    7   0.0317
+    8   0.0301
+    9   0.0216
+   10   0.0348
+   11   0.0309
+   12   0.0218
+   13   0.0296
+   14   0.0374
+   15   0.0210
+   16   0.0277
+   17   0.0283
+   18   0.0206
+   19   0.0259
+   20   0.0298
+   21   0.0230
+   22   0.0306
+   23   0.0269
+   24   0.0220
+   25   0.0269
+   26   0.0320
+   27   0.0369
+    1   0.0340
+    2   0.0289
+    3   0.0222
+    4   0.0275
+    5   0.0303
+    6   0.0232
+    7   0.0323
+    8   0.0290
+    9   0.0203
+   10   0.0384
+   11   0.0336
+   12   0.0215
+   13   0.0295
+   14   0.0347
+   15   0.0208
+   16   0.0295
+   17   0.0281
+   18   0.0204
+   19   0.0248
+   20   0.0308
+   21   0.0224
+   22   0.0264
+   23   0.0296
+   24   0.0239
+   25   0.0331
+   26   0.0331
+   27   0.0555

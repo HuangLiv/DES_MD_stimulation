@@ -1,0 +1,35 @@
+# This file was created Wed May  6 10:28:02 2026
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2026.1 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /data/hc/MD/gromacs_data/zzs_chai
+# Command line:
+#   gmx rmsf -s md_run/rep1/md.tpr -f standard_md_analysis/rep1/xtc/md_fit.xtc -n standard_md_analysis/rep1/analysis.ndx -o standard_md_analysis/rep1/xvg/rmsf_CA1_atom.xvg -ox standard_md_analysis/rep1/pdb/CA1_avg.pdb -oq standard_md_analysis/rep1/pdb/CA1_bfac.pdb
+# gmx rmsf is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Atom"
+@    yaxis  label "(nm)"
+@TYPE xy
+ 1066   0.0280
+ 1067   0.1047
+ 1068   0.0787
+ 1069   0.0917
+ 1070   0.0376
+ 1071   0.0687
+ 1072   0.0381
+ 1073   0.1106
+ 1074   0.0903
+ 1075   0.1018
+ 1076   0.0309
+ 1077   0.1287
+ 1078   0.1171
+ 1079   0.1473
+ 1080   0.1463
+ 1081   0.1758
+ 1082   0.1749
+ 1083   0.0938
